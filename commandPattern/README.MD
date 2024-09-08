@@ -27,5 +27,19 @@ PowerOn (Concrete Command): A concrete command object representing the "power on
 
 PowerOff (Concrete Command): A concrete command object representing the "power off" operation for the TV. It encapsulates the switchOff() method of the Tv object.
 
+IncreaseTemperature (Concrete Command): A concrete command object representing the “increase temperature” operation for the thermostat. It encapsulates the increaseTemperature(degrees: int) method of the Thermostat object.
+
+DecreaseTemperature (Concrete Command): A concrete command object representing the “decrease temperature” operation for the thermostat. It encapsulates the decreaseTemperature(degrees: int) method of the Thermostat object.
+
+SetBrightness (Concrete Command): A concrete command object representing the “set brightness” operation for the light. It encapsulates the setBrightness(level: int) method of the Light object.
+
+PlayPlaylist (Concrete Command): A concrete command object representing the “play playlist” operation for the music player. It encapsulates the playPlaylist(playlist: String) method of the MusicPlayer object.
+
 Tv (Receiver): The TV object represents the device being controlled. It has switchOn() and switchOff() methods to control its power state.
+
+Light (Receiver): The Light object represents the device being controlled. It has switchOn(), switchOff(), and setBrightness(level: int) methods to control its power state and brightness.
+
+Thermostat (Receiver): The Thermostat object represents the device being controlled. It has switchOn(), switchOff(), increaseTemperature(degrees: int), and decreaseTemperature(degrees: int) methods to control its power state and temperature.
+
+MusicPlayer (Receiver): The MusicPlayer object represents the device being controlled. It has switchOn(), switchOff(), and playPlaylist(playlist: String) methods to control its power state and playlist.
 
