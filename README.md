@@ -18,13 +18,13 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
 
 ### Components
 
-ViewerApp (Client): This represents an application used by viewers to control the TV. It interacts with the RemoteControl to send commands.
++ **ViewerApp (Client):** This represents an application used by viewers to control the TV. It interacts with the RemoteControl to send commands.
 
-RemoteControl (Invoker): The RemoteControl acts as an invoker, receiving commands from the ViewerApp and executing them. It has a clickButton() method to invoke commands.
++ **RemoteControl (Invoker):** The RemoteControl acts as an invoker, receiving commands from the ViewerApp and executing them. It has a clickButton() method to invoke commands.
 
-Command (Interface): An interface defining the execute() method, which concrete command objects must implement. It ensures that all concrete commands have an execute() method.
++ **Command (Interface):** An interface defining the execute() method, which concrete command objects must implement. It ensures that all concrete commands have an execute() method.
 
-PowerOn (Concrete Command): A concrete command object representing the "power on" operation for the TV. It encapsulates the switchOn() method of the Tv object.
++ **PowerOn (Concrete Command):** A concrete command object representing the "power on" operation for the TV. It encapsulates the switchOn() method of the Tv object.
 
 PowerOff (Concrete Command): A concrete command object representing the "power off" operation for the TV. It encapsulates the switchOff() method of the Tv object.
 
