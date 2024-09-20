@@ -26,7 +26,7 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
 
 + **PowerOn (Concrete Command):** A concrete command object representing the "power on" operation for the TV. It encapsulates the switchOn() method of the Tv object.
 
-PowerOff (Concrete Command): A concrete command object representing the "power off" operation for the TV. It encapsulates the switchOff() method of the Tv object.
++ **PowerOff (Concrete Command):** A concrete command object representing the "power off" operation for the TV. It encapsulates the switchOff() method of the Tv object.
 
-Tv (Receiver): The TV object represents the device being controlled. It has switchOn() and switchOff() methods to control its power state.
++ **Tv (Receiver):** The TV object represents the device being controlled. It has switchOn() and switchOff() methods to control its power state.
 
